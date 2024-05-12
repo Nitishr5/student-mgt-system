@@ -1,0 +1,35 @@
+.upper {
+
+    height: 300px;
+    width: 1540px;
+    background: url("1.jpg");
+    color: rgb(25, 85, 138);
+    }
+    
+    .upper p {
+    font-size: 40px;
+    text-align: center;
+    
+    }
+    
+    .down {
+    display: flex;
+    margin-left: 32%;
+    font-size: 20px;
+    }
+    
+    .down a {
+    text-decoration: none;
+    color: rgb(189, 32, 176);
+    }
+    
+    .down a:hover {
+    color: green;
+    font-size: 25px;
+    font-weight: 500;
+    }
+    
+    .down ul li {
+    list-style: circle;
+    color: yellow;
+    }

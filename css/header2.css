@@ -1,0 +1,101 @@
+/* Custom CSS for styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #225470;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.sidebar {
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 20px;
+    background-color: #ffffff;
+    border-right: 1px solid #dee2e6;
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 60px);
+    padding-top: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sidebar .nav-link {
+    color: #343a40;
+}
+
+.sidebar .nav-link:hover {
+    color: #007bff;
+}
+
+.nav-link i {
+    margin-right: 10px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mb-5 {
+    margin-bottom: 5rem !important;
+}
+
+.img-thumbnail {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/* Add more custom styles as needed */
+
+
+
+
+
+
+
+
+
+/* Custom CSS for styling the main part studentProfile  */
+.col-sm-6 {
+    margin: 0 auto; /* Center the column */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 100%;
+}

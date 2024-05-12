@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+body{
+    
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.body_deg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+
+}
+.container{
+    border:2px solid black;
+    max-width: 500px;
+    width: 100%;
+    background-color: aliceblue;
+    margin:20px auto;
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    margin-top: 15%;
+}
+.container .title
+{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #D071F9;
+    text-transform: uppercase;
+    text-align: center;   
+}
+.container .form{
+    width:100%;
+}
+.container .form .input_field {
+        margin-bottom:15px;
+        display: flex;
+        align-items: center;
+        
+}
+
+.container .form .input_field label{
+    width: 200px;
+    margin-right: 60px;
+    font-size: 18px;
+}
+.container .form .input_field .input,
+.container .form .input_field .textarea
+{
+    
+    width:100% ;
+    outline: none;
+    border:1px solid #D071F9;
+    font-size: 18px;
+    padding:8px 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.container .form .input_field .selectBox{
+    position: relative;
+    width: 100%;
+    height: 40px;
+ border:1px solid #D071F9;
+ border: 1px solid #D071f9;
+ -webkit-apperance:none;
+ appearance: none;
+}
+
+
+.container .form .input_field .btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 19px;
+    font-weight: 400;
+    border: 0px;
+    cursor:pointer;
+    background-color: #9018c4;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    outline: none;
+}
+.container .form .input_field :last-child
+{
+    margin-bottom: 0;
+}
+.container .form .input_field .btn:hover{
+    background-color: purple;
+}
+    @media (max-width: 420px)
+    {
+        .container .form .input_field
+        {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .container .form .input_fieldb label
+        {
+            margin-bottom: 5px ;
+            
+        }
+        
+        
+    }
+
+
+ 
