@@ -25,12 +25,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 .nav-t{
     height: 156px;
     width: 48px;
     font-size:27px;
     margin: 0px 0px 0px 8px;
+    
+
 }
+.nav-t{
+    text-decoration: none;
+}
+
 
 .bottom-banner{
     color:#fff;

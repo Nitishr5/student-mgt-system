@@ -2,15 +2,15 @@
 include 'sidebar.php';
 
 session_start();
-    // if(!isset($_SESSION['username']))
-    //     if(!isset($_SESSION['username']))
-    //     {
-    //         header("location:login.php");
-    //     }
-    //     elseif($_SESSION['usertype']=='student')
-    //     {
-    //         header("location:login.php");
-    //     }
+    if(!isset($_SESSION['username']))
+        if(!isset($_SESSION['username']))
+        {
+            header("location:login.php");
+        }
+        elseif($_SESSION['usertype']=='student')
+        {
+            header("location:login.php");
+        }
     
     include 'connection.php';
     $sql="SELECT * FROM course";

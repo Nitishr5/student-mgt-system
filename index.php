@@ -87,9 +87,8 @@
 
     <div class="ListIconOnTopLarge-description list-description">
     <a href="all-program.php"><button type="button" class="btn " >Explore Program</button></a>  
-    <button type="button" class="btn ">Tution & Aid</button>
-    <button type="button" class="btn ">About School</button>
-    <button type="button" class="btn">Explore Program</button>
+    <a href="about-us.php"> <button type="button" class="btn ">About School</button></a>
+   
     
         </div>
 
@@ -138,11 +137,7 @@
 
 
 
-<!-- Feedback section -->
-<?php
-include 'feedback.php'
-?>
-<!-- End of feedback section -->
+
 
 <!-- Contact US form -->
 <?php

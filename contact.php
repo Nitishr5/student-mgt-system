@@ -17,7 +17,7 @@
     </div>
 
     <div class="col-md-4 stripe text-white ">
-      <h3>ischool</h3>
+      <h3>Schoolary</h3>
       <p>ischool,
         Near Lanka , Varansi,
         uttar-pradesh -834005<br />

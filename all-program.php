@@ -119,7 +119,7 @@ margin-left:60px
 <body>
     
 <div class="upper">
-    <p>SWAMI SHIWANAND JEE TIRTH COLLEGE 2022-2023</p>
+    <p>Learn Coding With Us...!</p>
     <div class="down">
       <a href="index.php">Home</a>
       <span><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
